@@ -30,6 +30,26 @@ $ git commit -m "Commit message in quotes"
 # git status
 
 ### Return the current state of the repository
-```
+```Git Attributes
+# Message when files have not been staged (git add)
 $ git status
+On branch SecretTesting
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+  	homepage/index.html
+
+# Message when files have been not been committed (git commit)
+$ git status
+On branch SecretTesting
+Your branch is up-to-date with 'origin/SecretTesting'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   homepage/index.html
+
+# Message when all files have been staged and committed 
+$ git status
+On branch SecretTesting
+nothing to commit, working directory clean
 ```
