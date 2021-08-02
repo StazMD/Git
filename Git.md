@@ -1,3 +1,16 @@
+# git config
+
+### These values set what email address and name commits will be from on a local computer
+```bash
+# Running git config globally
+$ git config --global user.email "my@emailaddress.com"
+$ git config --global user.name "John Doe"
+
+# Running git config on the current repository settings
+$ git config user.email "my@emailaddress.com"
+$ git config user.name "John Doe"
+```
+
 # git init
 
 ### Turn a directory into a Git repository
@@ -52,19 +65,6 @@ Changes to be committed:
 $ git status
 On branch main
 nothing to commit, working directory clean
-```
-
-# git config
-
-### These values set what email address and name commits will be from on a local computer
-```bash
-# Running git config globally
-$ git config --global user.email "my@emailaddress.com"
-$ git config --global user.name "John Doe"
-
-# Running git config on the current repository settings
-$ git config user.email "my@emailaddress.com"
-$ git config user.name "John Doe"
 ```
 
 # git branch
@@ -159,33 +159,6 @@ From github.com:StazMD/Git.git
  * branch            staging    -> FETCH_HEAD
  * [new branch]      staging    -> origin/staging
 Already up-to-date.
-```
-
-# git push
-
-### To get the latest version of a repository	
-```bash
-# Push a specific branch to a remote with named remote
-$ git push origin staging
-Counting objects: 5, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (5/5), 734 bytes | 0 bytes/s, done.
-Total 5 (delta 2), reused 0 (delta 0)
-To git@github.com:StazMD/Git.git
-   ad189cb..0254c3d  main -> main
-
-# Push all local branches to remote repository
-$ git push --all
-Counting objects: 4, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 373 bytes | 0 bytes/s, done.
-Total 4 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To git@github.com:StazMD/Git.git
-   0d56917..948ac97  master -> master
-   ad189cb..0254c3d  main -> main
 ```
 
 # git push
