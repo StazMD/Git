@@ -30,11 +30,11 @@ $ git commit -m "Commit message in quotes"
 # git status
 
 ### Return the current state of the repository
-```Git Config
+```Git Config						
 # Message when files have not been staged (git add)
 $ git status
 On branch SecretTesting
-Untracked files:
+Untracked	 files:
   (use "git add <file>..." to include in what will be committed)
 
   	homepage/index.html
