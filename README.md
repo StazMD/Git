@@ -1,7 +1,5 @@
 # Git commands that I use in daily work
 
-Link to my [common commands](https://github.com/StazMD/Git/blob/main/Git.md)
-
 ```bash
 git config
 git init
