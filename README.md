@@ -180,7 +180,7 @@ Already up-to-date.
 
 # git push
 
-### To get the latest version of a repository	
+### Sends local commits to the remote repository	
 ```bash
 # Push a specific branch to a remote with named remote
 $ git push origin staging
